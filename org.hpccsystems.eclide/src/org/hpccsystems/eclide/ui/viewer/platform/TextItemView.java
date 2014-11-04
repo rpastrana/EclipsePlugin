@@ -15,7 +15,7 @@ import java.net.URL;
 
 import org.eclipse.swt.graphics.Image;
 import org.hpccsystems.eclide.Activator;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Workunit;
 
 public class TextItemView extends PlatformBaseView {
 	Workunit workunit;

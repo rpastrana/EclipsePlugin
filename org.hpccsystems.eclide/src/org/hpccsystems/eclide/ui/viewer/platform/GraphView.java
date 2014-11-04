@@ -7,8 +7,8 @@ import java.util.Observer;
 
 import org.eclipse.swt.graphics.Image;
 import org.hpccsystems.eclide.Activator;
-import org.hpccsystems.esp.Graph;
-import org.hpccsystems.esp.Platform;
+import org.hpccsystems.ws.client.platform.Graph;
+import org.hpccsystems.ws.client.platform.Platform;
 
 public class GraphView extends PlatformBaseView implements Observer {
 	Graph graph;

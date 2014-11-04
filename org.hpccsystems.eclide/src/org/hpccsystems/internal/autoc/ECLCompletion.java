@@ -22,7 +22,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.IPath;
-import org.hpccsystems.esp.StackHandler;
+import org.hpccsystems.ws.client.utils.StackHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 

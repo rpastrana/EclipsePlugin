@@ -12,7 +12,7 @@ package org.hpccsystems.eclide.ui.viewer.platform;
 
 import org.eclipse.swt.graphics.Image;
 import org.hpccsystems.eclide.Activator;
-import org.hpccsystems.esp.Platform;
+import org.hpccsystems.ws.client.platform.Platform;
 
 public class FolderItemView extends PlatformBaseView {
 

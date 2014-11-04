@@ -8,8 +8,8 @@ import java.util.Observer;
 
 import org.eclipse.swt.graphics.Image;
 import org.hpccsystems.eclide.Activator;
-import org.hpccsystems.esp.Platform;
-import org.hpccsystems.esp.Result;
+import org.hpccsystems.ws.client.platform.Platform;
+import org.hpccsystems.ws.client.platform.Result;
 import org.hpccsystems.internal.ui.tree.ItemView;
 
 public class ResultView extends PlatformBaseView implements Observer {

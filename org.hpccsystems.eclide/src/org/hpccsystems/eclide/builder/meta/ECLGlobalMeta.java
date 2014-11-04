@@ -25,7 +25,7 @@ import javax.xml.parsers.SAXParserFactory;
 
 import org.hpccsystems.eclide.Activator;
 import org.hpccsystems.eclide.builder.meta.ECLMetaTree.ECLMetaNode;
-import org.hpccsystems.esp.StackHandler;
+import org.hpccsystems.ws.client.utils.StackHandler;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;

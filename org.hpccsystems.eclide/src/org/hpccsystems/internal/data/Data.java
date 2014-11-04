@@ -21,7 +21,7 @@ import org.eclipse.debug.core.DebugPlugin;
 import org.eclipse.debug.core.ILaunchConfiguration;
 import org.eclipse.debug.core.ILaunchConfigurationListener;
 import org.eclipse.debug.core.ILaunchConfigurationWorkingCopy;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Workunit;
 
 public class Data extends Observable {
 	private static Data singletonFactory;

@@ -21,7 +21,7 @@ import org.eclipse.swt.widgets.Display;
 import org.hpccsystems.eclide.resources.Messages;
 import org.hpccsystems.eclide.ui.viewer.BrowserEx;
 import org.hpccsystems.eclide.ui.viewer.TextEx;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Workunit;
 
 public class WorkunitTabItem extends CTabItem implements Observer {
 

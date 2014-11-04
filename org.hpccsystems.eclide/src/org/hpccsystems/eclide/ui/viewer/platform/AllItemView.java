@@ -19,14 +19,14 @@ import java.util.Observer;
 import org.eclipse.swt.graphics.Image;
 import org.hpccsystems.eclide.Activator;
 import org.hpccsystems.eclide.resources.Messages;
-import org.hpccsystems.esp.Cluster;
-import org.hpccsystems.esp.DataQuerySet;
-import org.hpccsystems.esp.DropZone;
-import org.hpccsystems.esp.FileSprayWorkunit;
-import org.hpccsystems.esp.LogicalFile;
-import org.hpccsystems.esp.Platform;
-import org.hpccsystems.esp.Result;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Cluster;
+import org.hpccsystems.ws.client.platform.DataQuerySet;
+import org.hpccsystems.ws.client.platform.DropZone;
+import org.hpccsystems.ws.client.platform.FileSprayWorkunit;
+import org.hpccsystems.ws.client.platform.LogicalFile;
+import org.hpccsystems.ws.client.platform.Platform;
+import org.hpccsystems.ws.client.platform.Result;
+import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.ui.tree.ItemView;
 
 class PlatformBaseView extends ItemView {

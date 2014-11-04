@@ -7,8 +7,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 import org.hpccsystems.eclide.resources.Messages;
-import org.hpccsystems.esp.Graph;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Graph;
+import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.ui.tree.ItemView;
 
 class GraphFolderView extends FolderItemView implements Observer  {

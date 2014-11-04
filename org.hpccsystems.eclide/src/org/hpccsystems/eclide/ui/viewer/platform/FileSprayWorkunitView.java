@@ -21,9 +21,9 @@ import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.widgets.Display;
 import org.hpccsystems.eclide.Activator;
-import org.hpccsystems.esp.FileSprayWorkunit;
-import org.hpccsystems.esp.LogicalFile;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.FileSprayWorkunit;
+import org.hpccsystems.ws.client.platform.LogicalFile;
+import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.ui.tree.ItemView;
 
 public class FileSprayWorkunitView extends PlatformBaseView implements Observer {

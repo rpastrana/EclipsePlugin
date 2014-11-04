@@ -57,7 +57,7 @@ import org.hpccsystems.eclide.perspectives.ECLWatch;
 import org.hpccsystems.eclide.resources.Messages;
 import org.hpccsystems.eclide.ui.viewer.HtmlViewer;
 import org.hpccsystems.eclide.ui.viewer.platform.WorkunitActions.IPlatformUI;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.Eclipse;
 import org.hpccsystems.internal.data.Data;
 import org.hpccsystems.internal.ui.tree.ItemView;

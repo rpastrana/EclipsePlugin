@@ -18,9 +18,9 @@ import org.eclipse.swt.widgets.Shell;
 import org.hpccsystems.eclide.Workbench;
 import org.hpccsystems.eclide.builder.ECLCompiler;
 import org.hpccsystems.eclide.resources.Messages;
-import org.hpccsystems.esp.DataSingletonCollection;
-import org.hpccsystems.esp.Platform;
-import org.hpccsystems.esp.Workunit;
+import org.hpccsystems.ws.client.platform.DataSingletonCollection;
+import org.hpccsystems.ws.client.platform.Platform;
+import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.ConfigurationPreferenceStore;
 
 public class LauncherPlatform extends Platform {
