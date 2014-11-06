@@ -40,17 +40,17 @@ import org.eclipse.ui.dialogs.WizardResourceImportPage;
 import org.hpccsystems.eclide.resources.Messages;
 import org.hpccsystems.internal.Eclipse;
 import org.hpccsystems.internal.ui.PasswordFieldEditor;
-import org.hpccsystems.ws.WsAttributes.ArrayOfEspException;
-import org.hpccsystems.ws.WsAttributes.ECLAttribute;
-import org.hpccsystems.ws.WsAttributes.ECLModule;
-import org.hpccsystems.ws.WsAttributes.GetAttribute;
-import org.hpccsystems.ws.WsAttributes.GetAttributeResponse;
-import org.hpccsystems.ws.WsAttributes.GetAttributes;
-import org.hpccsystems.ws.WsAttributes.GetAttributesResponse;
-import org.hpccsystems.ws.WsAttributes.GetModules;
-import org.hpccsystems.ws.WsAttributes.GetModulesResponse;
-import org.hpccsystems.ws.WsAttributes.WsAttributesLocator;
-import org.hpccsystems.ws.WsAttributes.WsAttributesServiceSoap;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.ArrayOfEspException;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.ECLAttribute;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.ECLModule;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetAttribute;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetAttributeResponse;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetAttributes;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetAttributesResponse;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetModules;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.GetModulesResponse;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.WsAttributesLocator;
+import org.hpccsystems.ws.client.legacy.gen.wsattributes.v1_21.WsAttributesServiceSoap;
 
 public class ImportWizardPage extends WizardResourceImportPage {
 

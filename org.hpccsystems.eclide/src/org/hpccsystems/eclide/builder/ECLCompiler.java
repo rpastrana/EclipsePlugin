@@ -29,7 +29,6 @@ import org.eclipse.ui.console.MessageConsole;
 import org.eclipse.ui.console.MessageConsoleStream;
 import org.hpccsystems.eclide.Activator;
 import org.hpccsystems.eclide.resources.Messages;
-import org.hpccsystems.ws.client.platform.Version;
 import org.hpccsystems.internal.CError;
 import org.hpccsystems.internal.CmdArgs;
 import org.hpccsystems.internal.CmdProcess;
@@ -39,6 +38,7 @@ import org.hpccsystems.internal.EclCCErrorParser;
 import org.hpccsystems.internal.Eclipse;
 import org.hpccsystems.internal.OS;
 import org.hpccsystems.internal.data.ClientTools;
+import org.hpccsystems.ws.client.platform.Version;
 
 public class ECLCompiler {
 	final static String noCompiler = Messages.Error_Eclcc_Not_Found;
