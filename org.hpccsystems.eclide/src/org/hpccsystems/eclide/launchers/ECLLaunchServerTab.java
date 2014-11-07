@@ -323,7 +323,10 @@ public class ECLLaunchServerTab extends ECLLaunchConfigurationTab {
 		LauncherPlatform platform = LauncherPlatform.get(sslButton.getSelection(), fIPText.getText(), port);
 		platform.clearTempDisabled();
 		try {
-			String build = platform.getBuild(fUserText.getText(), fPasswordText.getText());
+		    //rodrigo, not sure if this should be the parsed out version of the hpcc build version or not,
+		    // versionString is the raw string fetched from HPCC.
+		    //Also, the Version class should have a toString (formatted version string)
+			String build = platform.getVersion().versionString;
 			fServerVersionText.setText(build);
 			
 			ClientTools clientTools = ClientTools.get(platform, testConfig);
@@ -336,9 +339,11 @@ public class ECLLaunchServerTab extends ECLLaunchConfigurationTab {
 			}
 			
 			disableButton.setText(DisableButtonText);
-		} catch (RemoteException e) {
-			fServerVersionText.setText(e.getMessage());
-			disableButton.setText(DisableButtonTempDiabledText);
+		}
+		catch (Exception e)
+		{
+            fServerVersionText.setText(e.getMessage());
+            disableButton.setText(DisableButtonTempDiabledText);
 		}
 	}
 

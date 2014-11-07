@@ -24,6 +24,16 @@ import org.hpccsystems.ws.client.platform.Workunit;
 import org.hpccsystems.internal.ConfigurationPreferenceStore;
 
 public class LauncherPlatform extends Platform {
+    //rodrigo: we'll have to rethink how this class works...
+    //Platform is now based on HPCCWsClient, which has a Connection, 
+    //if we're going to update the connection (change ip, port, user, pass, etc), 
+    //we'll have to be thread safe, and all HPCCWsClient sub clients will need to be updated as well..
+    //Thses changes are solely to get Gordon's workspace to build.
+    private String user = ""; //$NON-NLS-1$
+    private String password = ""; //$NON-NLS-1$
+    private boolean ssl = false;
+    private String ip = "";//$NON-NLS-1$
+    private int port = 8010;
 	public static DataSingletonCollection All = new DataSingletonCollection();	
 	public static LauncherPlatform get(boolean ssl, String ip, int port) {
 		if (ip == null || ip.isEmpty()) {
@@ -46,7 +56,8 @@ public class LauncherPlatform extends Platform {
 	private ConfigurationPreferenceStore launchConfiguration;	
 	private String name;
 	LauncherPlatform(boolean ssl, String ip, int port) {
-		super(ssl, ip, port);
+	    //rodrigo this has to be cleaned up... just getting Gordon building... 
+	    super(ssl ? "https" : "https", ip, port, null, null);
 		name = "";
 		isDisabled = true;
 	}
