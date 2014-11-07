@@ -62,15 +62,7 @@ Export-Package: org.hpccsystems.eclide;
    org.eclipse.swt.widgets,
    org.eclipse.jface.text.quickassist,
    org.eclipse.ui.editors.text",
- org.hpccsystems.eclide.handlers;
-  uses:="org.eclipse.core.commands",
- org.hpccsystems.eclide.importWizards;
-  uses:="org.eclipse.jface.wizard,
-   org.eclipse.jface.preference,
-   org.eclipse.ui,
-   org.eclipse.jface.viewers,
-   org.eclipse.ui.dialogs,
-   org.eclipse.swt.widgets",
+ org.hpccsystems.eclide.handlers;uses:="org.eclipse.core.commands",
  org.hpccsystems.eclide.launchers;
   uses:="org.eclipse.debug.core,
    org.eclipse.debug.ui,
@@ -84,14 +76,9 @@ Export-Package: org.hpccsystems.eclide;
    org.eclipse.jface.viewers,
    org.eclipse.swt.widgets",
  org.hpccsystems.eclide.perspectives;uses:="org.eclipse.ui",
- org.hpccsystems.eclide.preferences;
-  uses:="org.eclipse.jface.preference,
-   org.eclipse.ui,
-   org.eclipse.core.runtime.preferences",
- org.hpccsystems.eclide.problem;
-  uses:="org.eclipse.ui,org.eclipse.core.resources",
- org.hpccsystems.eclide.project;
-  uses:="org.eclipse.core.resources",
+ org.hpccsystems.eclide.preferences;uses:="org.eclipse.jface.preference,org.eclipse.ui,org.eclipse.core.runtime.preferences",
+ org.hpccsystems.eclide.problem;uses:="org.eclipse.ui,org.eclipse.core.resources",
+ org.hpccsystems.eclide.project;uses:="org.eclipse.core.resources",
  org.hpccsystems.eclide.text;
   uses:="org.eclipse.jface.text,
    org.eclipse.jface.text.presentation,

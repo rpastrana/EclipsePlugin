@@ -174,23 +174,6 @@
       </markerResolutionGenerator>
    </extension>
    <extension
-         point="org.eclipse.ui.importWizards">
-      <category
-            id="org.hpccsystems.eclide.importWizards.sampleCategory"
-            name="%ECL_Repository">
-      </category>
-      <wizard
-            category="org.hpccsystems.eclide.importWizards.sampleCategory"
-            class="org.hpccsystems.eclide.wizards.ImportWizard"
-            icon="icons/sample.gif"
-            id="org.hpccsystems.eclide.importWizards.ImportWizard"
-            name="%Import_Repository">
-         <description>
-            %Import_Repository_From_Legacy_Server
-         </description>
-      </wizard>
-   </extension>
-   <extension
          point="org.eclipse.debug.core.launchConfigurationTypes">
       <launchConfigurationType
             delegate="org.hpccsystems.eclide.launchers.ECLLaunchDelegate"
