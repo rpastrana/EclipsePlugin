@@ -57,7 +57,7 @@ public class ClientTools extends DataSingleton implements Comparable<ClientTools
 		if (preferences.getAttribute(ECLLaunchCompilerTab.P_OVERRIDEDEFAULTS, ECLLaunchCompilerTab.P_OVERRIDEDEFAULTS_DEFAULT)) {
 			ct = new ClientTools(preferences);
 		} else {
-		    //rodrigo... is there a diff between getBuildVersion and getVersion??
+		    //rodrigo: is there a diff between getBuildVersion and getVersion??
 			//ct = ClientTools.findBestMatch(p.getBuildVersion());
 		    ct = ClientTools.findBestMatch(p.getVersion());
 		}
